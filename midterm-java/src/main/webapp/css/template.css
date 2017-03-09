@@ -1,0 +1,75 @@
+.tableheader{background:#0976a9; color:#fff;}
+.tableheader th{padding:10px;}
+div.thhead{text-align:left;}
+.trdata td{padding:10px;}
+.trodd{background:#fff;}
+.treven{background:#bdcfd7;}
+
+.main-c{border-bottom:2px solid #0976a9;}
+.htitle{float:left; position:relative;}
+.add-cus{float:left; position:relative; left:20px; top:30px;}
+.add-cus a{
+	font:bold 18px "Times New Roman", Georgia, Serif;
+	color:#fff;
+	background:#0976a9;
+	text-decoration:none;
+	cursor:pointer;
+	padding:5px 10px;
+}
+.add-cus a:hover{
+	background:#b6900d;
+}
+.htitle h2{
+	font:bold 30px "Times New Roman", Georgia, Serif; 
+	text-align:left; 
+	/*border-bottom:2px solid #0976a9;*/
+	margin-top:20px;
+	margin-bottom:10px;
+}
+.form_filter{margin-bottom:15px;}
+a.btnedit{text-decoration:none; background:#109410; /*display:block;*/ cursor:pointer; color:#fff; padding:5px;}
+a.btnedit:hover{background:#076907;}
+a.btndelete{text-decoration:none; background:#a9091c; /*display:block;*/ cursor:pointer; color:#fff; padding:5px;}
+a.btndelete:hover{background:#800513;}
+
+.c-pagination{margin-top:20px; padding:5px 10px; background:#ededed;}
+.c-pagination a{padding:5px 10px; text-decoration:none; display:inline-block;}
+.p-active{color:#fff; background:#0976a9; cursor:pointer;}
+.p-active:hover{background:#b6900d;}
+.p-noactive{background:#d9d9d9; cursor:pointer;}
+.p-noactive:hover{background:#b6900d; color:#fff;}
+.c-pagination b{font:bold 16px "Times New Roman", Georgia, Serif; margin-left:20px;}
+
+/**********************LOGIN FORM********************/
+.flogin{width:700px; background:#c5dbf0;}
+h2.tsignin{font:bold 30px/44px "Times New Roman", Georgia, Serif; margin:0; padding:15px 0;}
+i.fa-lock{margin-right:10px; color:#0976a9;}
+.bsignin{
+	margin-bottom:15px; 
+	background:#0976a9;
+	cursor:pointer;
+	padding:10px;
+	border:0;
+	font:bold 18px "Times New Roman", Georgia, Serif;
+	color:#fff;
+}
+
+/*************************DASHBOARD*****************/
+.d-container{background:#c5dbf0; width:800px; margin:0 auto; padding:20px;}
+.d-title{border-bottom:2px solid #0976a9;}
+.d-title h2{margin:0;font:bold 30px/44px "Times New Roman", Georgia, Serif; margin:0;}
+.fa-tachometer{margin-right:10px; color:#0976a9;}
+.d-link a{
+	font:bold 18px "Times New Roman", Georgia, Serif;
+	color:#fff;
+	background:#0976a9;
+	text-decoration:none;
+	cursor:pointer;
+	padding:10px;
+}
+.d-link a:hover{
+	background:#b6900d;
+}
+
+/*********************CLEAR******************/
+.clr{clear:both;}
